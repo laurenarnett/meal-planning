@@ -1,0 +1,19 @@
+meal,protein,carb,vegetable,misc,recipe link,cuisine,time_minutes,difficulty,meal_type,favorite,times_made,last_eaten,leftovers,freezer_friendly,season,grocery_complexity,source
+chicken tikka,chicken,rice,"bell pepper, onion, spinach",tikka sauce,,Indian-inspired,45,medium,weeknight,,,,good,yes,all year,medium,Home
+ravioli,cheese,ravioli,"mushroom, scallion","tomato sauce, goat cheese",,Italian,25,easy,weeknight,,,,good,no,all year,low,Home
+garlic shrimp,shrimp,couscous,"spinach, onion",lemon,,Mediterranean,30,easy,weeknight,,,,good,no,all year,low,Home
+baked salmon,salmon,sweet potato,asparagus,lemon,,American,40,medium,weeknight,,,,good,no,all year,medium,Home
+zucchini polenta,shrimp,polenta,zucchini,cheese,,Italian,35,medium,weeknight,,,,ok,no,summer,medium,Home
+baked ziti,cheese,ziti,"tomato, onion, mushroom","tomato sauce, mozzarella",,Italian,60,medium,weekend,,,,excellent,yes,fall winter,medium,Home
+enchilada,"chicken, beans",tortilla,"mushroom, onion, scallion, bell pepper","enchilada sauce, shredded cheese",,Mexican-inspired,45,medium,weeknight,,,,excellent,yes,all year,medium,Home
+chickpea coconut curry,chickpea,rice,"bell pepper, onion",coconut milk,https://www.hellofresh.com/recipes/coconut-curry-with-chickpea-bell-pepper-60b78d33d040445a364cae04,Indian-inspired,40,medium,weeknight,,,,excellent,yes,fall winter,medium,HelloFresh
+chicken shawarma bowl,chicken,rice,"tomato, cucumber, red onion",,https://www.hellofresh.com/recipes/street-cart-style-chicken-bowls-63ecaed802dfc404e006c190,Middle Eastern,35,medium,weeknight,,,,excellent,no,spring summer,medium,HelloFresh
+sheet pan chicken,chicken,potato wedge,"green bean, carrot, brussel sprout, broccoli",panko,https://www.hellofresh.com/recipes/sheet-pan-dijon-onion-crunch-chicken-621e7f79fda2615c364c54b2,American,45,easy,weeknight,,,,good,yes,fall winter,low,HelloFresh
+silky sicilian pasta,,pasta,"grape tomato, mushroom, scallion, zucchini","lemon, parmesan",https://www.hellofresh.com/recipes/silky-sicilian-mushroom-penne-5e39c13ff1e8243dda35c94f,Italian,35,medium,weeknight,,,,ok,no,spring summer,medium,HelloFresh
+steak fajitas,steak,tortilla,"bell pepper, red onion, tomato, jalapeno",,,Mexican-inspired,35,easy,weeknight,,,,good,no,all year,medium,Home
+stuffed bell pepper,,rice,"bell pepper, tomato, onion",,,Mediterranean,50,medium,weekend,,,,excellent,yes,summer fall,medium,Home
+shrimp fried rice,"shrimp, egg",rice,"onion, bell pepper",,,Asian-inspired,30,easy,weeknight,,,,good,no,all year,low,Home
+shakshuka,egg,pita/naan,"eggplant, tomato, onion, bell pepper",,,Middle Eastern,40,medium,weekend,,,,ok,no,summer fall,medium,Home
+gnocchi / skillet,,gnocchi,,pesto sauce,,Italian,25,easy,weeknight,,,,ok,no,all year,low,Home
+skillet chicken,chicken,,,,,American,35,easy,weeknight,,,,good,no,all year,low,Home
+scallops,scallop,spaghetti,,,,Italian,35,medium,date night,,,,ok,no,all year,high,Home
