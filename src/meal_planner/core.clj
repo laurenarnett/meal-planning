@@ -1,7 +1,8 @@
 (ns meal-planner.core
   (:require [meal-planner.csv :as csv]
             [clojure.string :as str]
-            [clojure.edn :as edn])
+            [clojure.edn :as edn]
+            [clojure.data.json :as json])
   (:import [java.time LocalDateTime]))
 
 ;; wants
@@ -34,7 +35,10 @@
             grocery-items)))
 
 (defn quantity-number [item]
-  (Double/parseDouble (:quantity item)))
+  (let [q (:quantity item)]
+    (if (number? q)
+      (double q)
+      (Double/parseDouble q))))
 
 (defn combine-ingredients [items]
   (->> items
@@ -146,7 +150,7 @@
   (let [options (:options (load-state))]
     (str
      "Pick 3 meals:\n\n"
-     (clojure.string/join
+     (str/join
       "\n"
       (map #(str (:id %) ". " (:meal %))
            options))
@@ -157,3 +161,7 @@
        (map :meal)
        ingredients-for
        combine-ingredients))
+
+(defn grocery-json [meals]
+  (json/write-str
+   (combine-ingredients meals)))
