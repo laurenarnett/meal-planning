@@ -10,6 +10,7 @@ npm-debug.log*
 
 # Runtime state
 state.edn
+resources/state.edn
 
 # Clojure build/cache files
 .cpcache/
@@ -32,3 +33,6 @@ Thumbs.db
 *.tmp
 *.swp
 *~
+
+# Executable
+meal-planner
